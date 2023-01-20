@@ -27,9 +27,19 @@ a{
 
 header{
     background-color: var(--grey);
+    padding: 20px 0;
 }
 
 
 .header_nav{
     display: flex;
+}
+
+.profile_card{
+    background-color: red;
+    min-height: 500px;
+}
+
+.profile{
+    background-color: var(--green);
 }
