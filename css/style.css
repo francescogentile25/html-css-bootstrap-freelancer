@@ -1,0 +1,49 @@
+
+:root{
+    --green:#1ABC9C;
+    --grey:#3A546D;
+    --dark-grey:#2C3E50;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+ul,
+ol,
+menu,
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+
+
+
+header{
+    background-color: var(--grey);
+}
+
+.ms_container{
+    background-color: red;
+    min-height: 300px;
+}
+
+.ms_row{
+
+    background-color: blue;
+}
+
+.ms_col{
+    min-height: 200px;
+    background-color: salmon;
+}
+
+.header_nav{
+    display: flex;
+}
