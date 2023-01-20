@@ -44,8 +44,6 @@ header{
     background-color: var(--green);
 }
 
-.portfolio .col-sm-4{
-    min-height: 100px ;
-    background-color: salmon;
-    border: 1px solid black;
+.ms_card{
+    border-radius: 200px;
 }
