@@ -44,6 +44,11 @@ header{
     background-color: var(--green);
 }
 
-.ms_card{
-    border-radius: 200px;
+.about{
+    background-color: var(--green);
+}
+
+
+footer{
+    background-color: var(--grey);
 }
