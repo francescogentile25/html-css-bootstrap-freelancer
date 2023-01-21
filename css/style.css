@@ -1,10 +1,8 @@
-
 :root{
     --green:#1ABC9C;
     --grey:#3A546D;
     --dark-grey:#2C3E50;
 }
-
 
 img{
     max-width: 100%;
@@ -22,22 +20,13 @@ a{
     color: currentColor;
 }
 
-
-
-
 header{
     background-color: var(--grey);
     padding: 20px 0;
 }
 
-
 .header_nav{
     display: flex;
-}
-
-.profile_card{
-    background-color: red;
-    min-height: 500px;
 }
 
 .profile{
@@ -46,9 +35,51 @@ header{
 
 .about{
     background-color: var(--green);
+    padding: 42px 0 ;
 }
-
 
 footer{
     background-color: var(--grey);
+}
+
+.star::before,
+.star::after{
+    content: "";
+    display: block;
+    width: 20%;
+    height: 4px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.star-drk::before,
+.star-drk::after{
+    content: "";
+    display: block;
+    width: 20%;
+    height: 4px;
+    border-radius: 20px;
+    background-color: black;
+}
+.star{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+
+.star i{
+    margin: 0 20px;
+}
+form{
+    padding: 0 5rem;
+}
+
+button{
+    background-color: var(--green) !important;
+}
+
+.footer-bottom{
+    background-color: var(--dark-grey);
 }
