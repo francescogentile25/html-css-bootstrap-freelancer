@@ -3,7 +3,9 @@
     --grey:#3A546D;
     --dark-grey:#2C3E50;
 }
-
+/********* 
+RESET RULE
+**********/
 img{
     max-width: 100%;
 }
@@ -20,33 +22,24 @@ a{
     color: currentColor;
 }
 
-header{
-    background-color: var(--grey);
-    padding: 20px 0;
-}
-
-.header_nav{
-    display: flex;
-}
-
-.profile{
-    background-color: var(--green);
-}
-
-.about{
-    background-color: var(--green);
-    padding: 42px 0 ;
-}
-
+header, 
 footer{
     background-color: var(--grey);
+}
+.footer-bottom{
+    background-color: var(--dark-grey);
+}
+
+.profile,
+.about{
+    background-color: var(--green);
 }
 
 .star::before,
 .star::after{
     content: "";
     display: block;
-    width: 20%;
+    width: 15%;
     height: 4px;
     border-radius: 20px;
     background-color: white;
@@ -69,17 +62,12 @@ footer{
     margin-bottom: 26px;
 }
 
-.star i{
-    margin: 0 20px;
-}
 form{
     padding: 0 5rem;
 }
 
-button{
-    background-color: var(--green) !important;
-}
-
-.footer-bottom{
-    background-color: var(--dark-grey);
+.btn-success{
+    --bs-btn-bg: var(--green);
+    --bs-btn-font-weight: 600;
+    --bs-btn-border-color: none
 }

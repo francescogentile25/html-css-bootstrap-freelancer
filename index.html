@@ -11,22 +11,54 @@
     <title>Bootstrap</title>
 </head>
 <body>
-    <header>
-        <div class="container-sm ms_container">
-            <div class="row ms_row align-content-center">
-                <div class="col ms_col">
-                    <p>START BOOTSRTAP</p>
+    <header> <!-- class="py-4" -->
+        <!-- <div class="container-sm fw-bold text-white "> gx-0 -->
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container text-uppercase">
+                    <a class="navbar-brand text-white" href="#">start bootstrap</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col ms_col">
-                    <ul class="header_nav justify-content-end">
-                        <li>Portfolio</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                    </ul>
-                    <i class="fa-solid fa-bars d-none"></i>
-                </div>
-            </div>
+            </nav>
             
+            <!-- <div class="row justify-content-between align-items-baseline">
+                <div class="col-auto">
+                    <p class="fs-3">START BOOTSRTAP</p>
+                </div>
+                <div class="col-auto">
+                    <ul class="d-none d-sm-flex text-uppercase">
+                        <li class="mx-1">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="mx-1">
+                            <a  href="#about">About</a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-block d-sm-none">
+                        <button type="button" class="btn btn-outline-light">
+                            <i class="fa-solid fa-bars  text-secondary"></i>
+                        </button>
+                    </div>
+                </div>
+            </div> -->
         </div>
     </header>
     <main>
@@ -41,9 +73,9 @@
                             <div class="w-100"></div>
                             <div class="col">
                                 <div class="text-white text-uppercase fw-bold text-center">
-                                    <h1 class="fs-1">start bootstrap</h1>
+                                    <h1>start bootstrap</h1>
                                     <div class="star">
-                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star mx-4"></i>
                                     </div>
                                     <p>graphic artist - web designer - illustator</p>
                                 </div>
@@ -54,74 +86,66 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio  my-5">
+        <section class="portfolio my-5">
             <div class="container-sm">
                 <div class="row justify-content-center">
                     <div class="col-6">
                         <div class="text-uppercase fw-bold text-center">
-                            <h2 class="fs-1">portfolio</h2>
+                            <a name="portfolio"  >
+                                <h2 class="fs-1">portfolio</h2>
+                            </a>
                             <div class=" star star-drk">
-                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star mx-4"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row g-3">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="ms_card">
-                            <img src="./img/cabin.png" class="rounded-3" alt="">
-                        </div>
+                <div class="row g-3   row-cols-1 row-cols-sm-2 row-cols-lg-3 ">
+                    <div class="col">
+                        <img src="./img/cabin.png" class="rounded-3" alt="">
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="ms_card">
-                            <img src="./img/cake.png"  class="rounded-3"alt="">
-                        </div>
+                    <div class="col">
+                        <img src="./img/cake.png"  class="rounded-3"alt="">
+                    </div>                    
+                    <div class="col">
+                        <img src="./img/circus.png" class="rounded-3" alt="">
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="ms_card">
-                            <img src="./img/circus.png" class="rounded-3" alt="">
-                        </div>
+                    <div class="col">
+                        <img src="./img/game.png"  class="rounded-3"alt="">
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="ms_card">
-                            <img src="./img/game.png"  class="rounded-3"alt="">
-                        </div>
+                    <div class="col">
+                        <img src="./img/safe.png"  class="rounded-3"alt="">
                     </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="ms_card">
-                            <img src="./img/safe.png"  class="rounded-3"alt="">
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="ms_card">
-                            <img src="./img/submarine.png"  class="rounded-3"alt="">
-                        </div>
+                    <div class="col">
+                        <img src="./img/submarine.png" class="rounded-3"alt="">
                     </div>
                 </div>
             </div>
         </section>
-        <section class="about my-5">
+        <section class="about  py-5 my-5">
             <div class="container-sm">
                 <div class="row justify-content-center mt-5">
                     <div class="col-6">
                         <div class="text-white text-uppercase fw-bold text-center">
-                            <h2 class="fs-1">about me</h2>
+                            <a name="about">
+                                <h2 class="fs-1">about me</h2>
+                            </a>
                             <div class="star">
-                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star mx-4"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-evenly text-white">
+                <div class="row justify-content-evenly text-white row-gap-3">
                     <div class="col-sm-6">
-                        <p class="px-5">Freelancer is a free bootstrap theme created by Start
+                        <p class="px-5 fs-5">Freelancer is a free bootstrap theme created by Start
                             Bootstrap. The download includes the complete
                             source files including HTML, CSS, and JavaScript as
                             well as optional LESS stylesheets for easy
                             customization.</p>
                     </div>
                     <div class="col-sm-6">
-                        <p class="px-5">Whether you're a student looking to showcase your
+                        <p class="px-5 fs-5">Whether you're a student looking to showcase your
                             work, a professional looking to attract clients, or a
                             graphic artist looking to share your projects, this
                             template is the perfect starting point!</p>
@@ -138,9 +162,11 @@
                 <div class="row justify-content-center">
                     <div class="col-6">
                         <div class="text-uppercase fw-bold text-center">
-                            <h2 class="fs-1">contact</h2>
+                            <a name="contact">
+                                <h2 class="fs-1">contact</h2>
+                            </a>
                             <div class=" star star-drk">
-                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star mx-4"></i>
                             </div>
                         </div>
                     </div>
@@ -148,15 +174,15 @@
                 <div class="row">
                     <div class="col-12">
                         <form action="#">
-                            <label class="form-label mt-2">Name</label>
-                            <input type="text" id="inputName" class="form-control form-control-sm border-0 border-bottom rounded-0">
-                            <label class="form-labe mt-2">Email Adress</label>
-                            <input type="email" id="inputMail" class="form-control form-control-sm border-0 border-bottom rounded-0">
-                            <label class="form-labe mt-2">Phone Number</label>
+                            <label  for="inputName" class="form-label mt-2">Name</label>
+                            <input type="text" required id="inputName" class="form-control form-control-sm border-0 border-bottom rounded-0">
+                            <label  for="inputMail" class="form-labe mt-2">Email Adress</label>
+                            <input type="email"  required id="inputMail" class="form-control form-control-sm border-0 border-bottom rounded-0">
+                            <label  for="inputTel" class="form-labe mt-2">Phone Number</label>
                             <input type="tel" id="inputTel" class="form-control form-control-sm border-0 border-bottom rounded-0">
-                            <label class="form-labe mt-2">Message</label>
-                            <textarea class="form-control form-control-sm border-0 border-bottom rounded-0" id="inputText" style="height: 140px"></textarea>
-                            <button type="button" class="btn btn-success mt-3 border-0">Send</button>
+                            <label  for="inputText" class="form-labe mt-2">Message</label>
+                            <textarea  required class="form-control form-control-sm border-0 border-bottom rounded-0" id="inputText" style="height: 140px"></textarea>
+                            <input  type="submit" class="btn btn-success mt-3 " value="Send">
                         </form>
                     </div>
                 </div>
@@ -198,7 +224,12 @@
                 </div>
             </div>
         </div>
-        <!-- chiedere come alineare copiright -->
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
+<!-- chiedere come alineare copiright,
+    se va bene scrivere tutto su html
+    se va bene usare row cols 
+    spigare rem e padding
+-->
