@@ -43,18 +43,9 @@ footer{
     width: 15%;
     height: 4px;
     border-radius: 20px;
-    background-color: white;
+    background-color: currentColor;
 }
 
-.star-drk::before,
-.star-drk::after{
-    content: "";
-    display: block;
-    width: 20%;
-    height: 4px;
-    border-radius: 20px;
-    background-color: black;
-}
 .star{
     font-size: 30px;
     display: flex;
